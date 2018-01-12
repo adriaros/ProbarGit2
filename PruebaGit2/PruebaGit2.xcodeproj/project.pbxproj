@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E753E9992008DD0800B9A05E /* pruebaBorja.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753E9982008DD0800B9A05E /* pruebaBorja.swift */; };
 		FBB118D82008DBEE008D6655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB118D72008DBEE008D6655 /* AppDelegate.swift */; };
 		FBB118DA2008DBEE008D6655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB118D92008DBEE008D6655 /* ViewController.swift */; };
 		FBB118DD2008DBEE008D6655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB118DB2008DBEE008D6655 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E753E9982008DD0800B9A05E /* pruebaBorja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaBorja.swift; sourceTree = "<group>"; };
 		FBB118D42008DBEE008D6655 /* PruebaGit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaGit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB118D72008DBEE008D6655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB118D92008DBEE008D6655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E753E9972008DCF200B9A05E /* Rama2Borja */ = {
+			isa = PBXGroup;
+			children = (
+				E753E9982008DD0800B9A05E /* pruebaBorja.swift */,
+			);
+			path = Rama2Borja;
+			sourceTree = "<group>";
+		};
 		FBB118CB2008DBEE008D6655 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		FBB118D62008DBEE008D6655 /* PruebaGit2 */ = {
 			isa = PBXGroup;
 			children = (
+				E753E9972008DCF200B9A05E /* Rama2Borja */,
 				FBB118D72008DBEE008D6655 /* AppDelegate.swift */,
 				FBB118D92008DBEE008D6655 /* ViewController.swift */,
 				FBB118DB2008DBEE008D6655 /* Main.storyboard */,
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E753E9992008DD0800B9A05E /* pruebaBorja.swift in Sources */,
 				FBB118DA2008DBEE008D6655 /* ViewController.swift in Sources */,
 				FBB118D82008DBEE008D6655 /* AppDelegate.swift in Sources */,
 			);
